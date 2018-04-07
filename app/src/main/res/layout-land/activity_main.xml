@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:background="@drawable/bg_rg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <GridLayout
+            android:id="@+id/grid_joueurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3" >
+
+            <Button
+                android:id="@+id/federer"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:text="Federer"
+                android:background="@drawable/federer"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/azarenka"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Azarenka"
+                android:background="@drawable/azarenka"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/tsonga"
+                android:layout_column="2"
+                android:layout_row="0"
+                android:text="Tsonga"
+                android:background="@drawable/tsonga"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/murray"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:text="Murray"
+                android:background="@drawable/murray"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/nadal"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:text="Nadal"
+                android:background="@drawable/nadal"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/hingis"
+                android:layout_column="2"
+                android:layout_row="1"
+                android:text="Hingis"
+                android:background="@drawable/hingis"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/schiavone"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:text="Schiavone"
+                android:background="@drawable/schiavone"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/sharapova"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Sharapova"
+                android:background="@drawable/sharapova"
+                style="@style/BoutonPerso" />
+
+            <Button
+                android:id="@+id/serena"
+                android:layout_column="2"
+                android:layout_row="2"
+                android:text="Serena"
+                android:background="@drawable/serena"
+                style="@style/BoutonPerso" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Rolland Garros"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        />
+
+</RelativeLayout>
